@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "morecombat:buckler",
+                                "blocks_attacks": {
+                                    "disabled_sound": "minecraft:item.shield.break",
+                                    "block_sound": {
+                                        "sound_id": "minecraft:entity.armor_stand.break",
+                                        "range": 0.5
+                                    },
+                                    "damage_reductions": [
+                                        {
+                                            "factor": 0,
+                                            "base": 4
+                                        }
+                                    ],
+                                    "block_delay_seconds": 0,
+                                    "disable_cooldown_scale": 0.3333,
+                                    "item_damage": {
+                                        "threshold": 0,
+                                        "base": 1,
+                                        "factor": 1
+                                    }
+                                },
+                                "use_cooldown": {
+                                    "seconds": 1,
+                                    "cooldown_group": "morecombat:buckler"
+                                },
+                                "max_damage": 150,
+                                "custom_name": ["",{"text":"Buckler","italic":false}]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

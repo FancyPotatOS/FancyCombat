@@ -1,0 +1,62 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#i#",
+        "#i#",
+        "w#w"
+    ],
+    "key": {
+        "#": "#minecraft:planks",
+        "i": "minecraft:iron_ingot",
+        "w": "#minecraft:logs"
+    },
+    "result": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "components": {
+            "item_model": "morecombat:tower_shield",
+            "blocks_attacks": {
+                "disabled_sound": "minecraft:item.shield.break",
+                "block_sound": {
+                    "sound_id": "minecraft:entity.armor_stand.break",
+                    "range": 0.5
+                },
+                "damage_reductions": [
+                    {
+                        "factor": 0.9,
+                        "base": 0
+                    }
+                ],
+                "block_delay_seconds": 0.5,
+                "disable_cooldown_scale": 0.2,
+                "item_damage": {
+                    "threshold": 0,
+                    "base": 1,
+                    "factor": 1
+                }
+            },
+            "use_cooldown": {
+                "seconds": 1,
+                "cooldown_group": "morecombat:tower_shield"
+            },
+            "max_damage": 450,
+            "item_name": [{"translate": "item.morecombat.tower_shield", "fallback": "Tower Shield"}],
+            "attribute_modifiers": [
+                {
+                    "id": "morecombat:tower_shield_slowness",
+                    "type": "minecraft:movement_speed",
+                    "amount": -0.03,
+                    "operation": "add_value",
+                    "slot": "hand"
+                },
+                {
+                    "id": "morecombat:tower_shield_range",
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": -0.5,
+                    "operation": "add_value",
+                    "slot": "hand"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "values": [
+        "minecraft:respawn_anchor",
+        "minecraft:rooted_dirt",
+        "minecraft:sand",
+        "minecraft:sandstone",
+        "minecraft:sculk",
+        "minecraft:sculk_catalyst",
+        "minecraft:sculk_sensor",
+        "minecraft:sculk_shrieker"
+    ]
+}

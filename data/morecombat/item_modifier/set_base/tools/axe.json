@@ -1,0 +1,14 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:entity_interaction_range",
+        "amount": -0.5,
+        "operation": "add_value",
+        "id": "axe_base_reach",
+        "slot": "mainhand"
+      }
+    ]
+  }
+]

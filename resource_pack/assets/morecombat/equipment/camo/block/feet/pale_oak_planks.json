@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "morecombat:camo/block/feet/pale_oak_planks"
+      }
+    ]
+  }
+}

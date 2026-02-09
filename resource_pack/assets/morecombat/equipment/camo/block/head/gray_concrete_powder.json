@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "morecombat:camo/block/head/gray_concrete_powder"
+      }
+    ]
+  }
+}

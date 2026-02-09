@@ -1,0 +1,308 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "morecombat:item/wand/base"
+      },
+      "index": 0,
+      "cases": [
+        {
+          "when": "bolt",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/bolt"
+          }
+        },
+        {
+          "when": "base",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/base"
+          }
+        },
+        {
+          "when": "coast",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/coast"
+          }
+        },
+        {
+          "when": "dune",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/dune"
+          }
+        },
+        {
+          "when": "eye",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/eye"
+          }
+        },
+        {
+          "when": "flow",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/flow"
+          }
+        },
+        {
+          "when": "host",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/host"
+          }
+        },
+        {
+          "when": "raiser",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/raiser"
+          }
+        },
+        {
+          "when": "rib",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/rib"
+          }
+        },
+        {
+          "when": "sentry",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/sentry"
+          }
+        },
+        {
+          "when": "shaper",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/shaper"
+          }
+        },
+        {
+          "when": "silence",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/silence"
+          }
+        },
+        {
+          "when": "snout",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/snout"
+          }
+        },
+        {
+          "when": "spire",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/spire"
+          }
+        },
+        {
+          "when": "tide",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/tide"
+          }
+        },
+        {
+          "when": "unknown",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/unknown"
+          }
+        },
+        {
+          "when": "vex",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/vex"
+          }
+        },
+        {
+          "when": "ward",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/ward"
+          }
+        },
+        {
+          "when": "wayfinder",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/wayfinder"
+          }
+        },
+        {
+          "when": "wild",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/base/wild"
+          }
+        }
+      ]
+    },
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "morecombat:item/wand/using"
+      },
+      "index": 0,
+      "cases": [
+        {
+          "when": "base",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/base"
+          }
+        },
+        {
+          "when": "bolt",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/bolt"
+          }
+        },
+        {
+          "when": "coast",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/coast"
+          }
+        },
+        {
+          "when": "dune",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/dune"
+          }
+        },
+        {
+          "when": "eye",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/eye"
+          }
+        },
+        {
+          "when": "flow",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/flow"
+          }
+        },
+        {
+          "when": "host",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/host"
+          }
+        },
+        {
+          "when": "raiser",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/raiser"
+          }
+        },
+        {
+          "when": "rib",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/rib"
+          }
+        },
+        {
+          "when": "sentry",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/sentry"
+          }
+        },
+        {
+          "when": "shaper",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/shaper"
+          }
+        },
+        {
+          "when": "silence",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/silence"
+          }
+        },
+        {
+          "when": "snout",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/snout"
+          }
+        },
+        {
+          "when": "spire",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/spire"
+          }
+        },
+        {
+          "when": "tide",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/tide"
+          }
+        },
+        {
+          "when": "unknown",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/unknown"
+          }
+        },
+        {
+          "when": "vex",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/vex"
+          }
+        },
+        {
+          "when": "ward",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/ward"
+          }
+        },
+        {
+          "when": "wayfinder",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/wayfinder"
+          }
+        },
+        {
+          "when": "wild",
+          "model": {
+            "type": "minecraft:model",
+            "model": "morecombat:item/wand/using/wild"
+          }
+        }
+      ]
+    }
+  }
+}

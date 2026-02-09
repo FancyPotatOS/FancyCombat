@@ -1,0 +1,17 @@
+{
+	"replace":false,
+	"values":
+	[
+		"morecombat:meta/tick",
+		"morecombat:functionality/camo/tick",
+		"morecombat:functionality/wand/wild/tick",
+		"morecombat:functionality/wand/shaper/tick",
+		"morecombat:functionality/wand/dune/tick",
+		"morecombat:functionality/wand/coast/tick",
+		"morecombat:functionality/wand/ward/tick",
+		"morecombat:functionality/wand/sentry/tick",
+		"morecombat:functionality/wand/silence/tick",
+		"morecombat:functionality/wand/tide/tick",
+		"morecombat:functionality/wand/snout/tick"
+	]
+}

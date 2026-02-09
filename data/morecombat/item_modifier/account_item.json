@@ -1,0 +1,8 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "custom_data": {"morecombat":{"accounted": 1}}
+    }
+  }
+]

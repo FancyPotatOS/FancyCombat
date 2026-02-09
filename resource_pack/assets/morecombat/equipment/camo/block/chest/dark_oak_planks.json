@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "morecombat:camo/block/chest/dark_oak_planks"
+      }
+    ]
+  }
+}

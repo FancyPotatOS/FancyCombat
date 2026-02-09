@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "morecombat:camo/block/chest/pink_stained_glass"
+      }
+    ]
+  }
+}

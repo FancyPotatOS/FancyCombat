@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid_leggings": [
+      {
+        "texture": "morecombat:camo/block/nether_wart_block"
+      }
+    ]
+  }
+}

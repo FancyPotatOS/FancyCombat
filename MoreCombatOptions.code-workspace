@@ -1,0 +1,13 @@
+{
+	"folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../../../../resourcepacks/MoreCombatOptionsResourcePack"
+        }
+    ],
+    "settings": {
+        "workbench.iconTheme": "mc-dp-icons"
+    }
+}

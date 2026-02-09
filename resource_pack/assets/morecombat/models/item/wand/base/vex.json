@@ -1,0 +1,6 @@
+{
+    "parent": "morecombat:item/wand/base",
+    "textures": {
+      "layer0": "morecombat:item/wand/vex"
+    }
+  }

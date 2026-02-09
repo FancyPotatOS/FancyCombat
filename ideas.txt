@@ -1,0 +1,41 @@
+
+Weapons
+- Swords
+    - Normal
+- Axes
+    - -0.5 block entity reach
+- Hoes
+    - +2 block entity reach
+    - Less attack speed
+    - More damage
+- Shovels
+    - 1 second of Weakness II
+- Pickaxes
+    - 1 second of Blindness
+    - This prevents the player from starting a run during the one second
+- Tridents
+    - +1 block entity reach
+
+Tools
+- Brushes
+    - -1.5 entity reach for 1.5 seconds
+- Shears
+    - -1.5 mining reach for 2.5 seconds
+
+
+Shields
+- Tower Shield
+    - 10 tick popup
+    - 20% blocking break time
+    - 90% damage reduction
+    - 30% slowness
+    - -0.5 block entity reach
+- Normal Shield
+    - 5 tick popup
+    - Full blocking break time
+    - Full damage reduction
+- Buckler
+    - Instant popup
+    - 1/3 blocking break time
+    - 2 heart damage reduction
+

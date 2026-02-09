@@ -1,0 +1,6 @@
+{
+    "parent": "morecombat:item/wand/using",
+    "textures": {
+      "layer0": "morecombat:item/wand/tide"
+    }
+  }

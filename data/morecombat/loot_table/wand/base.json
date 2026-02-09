@@ -1,0 +1,167 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:attack_range": {},
+                "!minecraft:attribute_modifiers": {},
+                "!minecraft:axolotl/variant": {},
+                "!minecraft:banner_patterns": {},
+                "!minecraft:base_color": {},
+                "!minecraft:bees": {},
+                "!minecraft:block_entity_data": {},
+                "!minecraft:block_state": {},
+                "!minecraft:blocks_attacks": {},
+                "!minecraft:break_sound": {},
+                "!minecraft:bucket_entity_data": {},
+                "!minecraft:bundle_contents": {},
+                "!minecraft:can_break": {},
+                "!minecraft:can_place_on": {},
+                "!minecraft:cat/collar": {},
+                "!minecraft:cat/variant": {},
+                "!minecraft:charged_projectiles": {},
+                "!minecraft:chicken/variant": {},
+                "!minecraft:consumable": {},
+                "!minecraft:container": {},
+                "!minecraft:container_loot": {},
+                "!minecraft:cow/variant": {},
+                "!minecraft:custom_model_data": {},
+                "!minecraft:custom_name": {},
+                "!minecraft:damage_resistant": {},
+                "!minecraft:damage_type": {},
+                "!minecraft:death_protection": {},
+                "!minecraft:debug_stick_state": {},
+                "!minecraft:dyed_color": {},
+                "!minecraft:enchantment_glint_override": {},
+                "!minecraft:entity_data": {},
+                "!minecraft:equippable": {},
+                "!minecraft:firework_explosion": {},
+                "!minecraft:fireworks": {},
+                "!minecraft:food": {},
+                "!minecraft:fox/variant": {},
+                "!minecraft:frog/variant": {},
+                "!minecraft:glider": {},
+                "!minecraft:horse/variant": {},
+                "!minecraft:instrument": {},
+                "!minecraft:intangible_projectile": {},
+                "!minecraft:jukebox_playable": {},
+                "!minecraft:llama/variant": {},
+                "!minecraft:lock": {},
+                "!minecraft:lodestone_tracker": {},
+                "!minecraft:map_color": {},
+                "!minecraft:map_decorations": {},
+                "!minecraft:map_id": {},
+                "!minecraft:minimum_attack_charge": {},
+                "!minecraft:mooshroom/variant": {},
+                "!minecraft:note_block_sound": {},
+                "!minecraft:ominous_bottle_amplifier": {},
+                "!minecraft:painting/variant": {},
+                "!minecraft:parrot/variant": {},
+                "!minecraft:piercing_weapon": {},
+                "!minecraft:pig/variant": {},
+                "!minecraft:pot_decorations": {},
+                "!minecraft:potion_contents": {},
+                "!minecraft:potion_duration_scale": {},
+                "!minecraft:profile": {},
+                "!minecraft:provides_banner_patterns": {},
+                "!minecraft:provides_trim_material": {},
+                "!minecraft:rabbit/variant": {},
+                "!minecraft:recipes": {},
+                "!minecraft:repair_cost": {},
+                "!minecraft:repairable": {},
+                "!minecraft:salmon/size": {},
+                "!minecraft:sheep/color": {},
+                "!minecraft:shulker/color": {},
+                "!minecraft:stored_enchantments": {},
+                "!minecraft:suspicious_stew_effects": {},
+                "!minecraft:swing_animation": {},
+                "!minecraft:tool": {},
+                "!minecraft:tooltip_display": {},
+                "!minecraft:tooltip_style": {},
+                "!minecraft:trim": {},
+                "!minecraft:tropical_fish/base_color": {},
+                "!minecraft:tropical_fish/pattern": {},
+                "!minecraft:tropical_fish/pattern_color": {},
+                "!minecraft:unbreakable": {},
+                "!minecraft:use_cooldown": {},
+                "!minecraft:use_remainder": {},
+                "!minecraft:villager/variant": {},
+                "!minecraft:weapon": {},
+                "!minecraft:wolf/collar": {},
+                "!minecraft:wolf/sound_variant": {},
+                "!minecraft:wolf/variant": {},
+                "!minecraft:writable_book_content": {},
+                "!minecraft:written_book_content": {},
+                "!minecraft:zombie_nautilus/variant": {},
+                "minecraft:custom_data": {
+                  "morecombat": {
+                    "type": "wand",
+                    "state": "morecombat:base"
+                  }
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [ "base" ]
+                },
+                "minecraft:enchantments": {},
+                "minecraft:max_stack_size": 1,
+                "minecraft:item_model": "morecombat:wand",
+                "minecraft:rarity": "rare",
+                "minecraft:kinetic_weapon": {
+                  "delay_ticks": 2147483647,
+                  "contact_cooldown_ticks": 2147483647,
+                  "damage_multiplier": 0
+                },
+                "minecraft:use_effects": {
+                  "can_sprint": true,
+                  "speed_multiplier": 1,
+                  "interact_vibrations": false
+                },
+                "minecraft:max_damage": 256,
+                "minecraft:damage": 0,
+                "minecraft:item_name": {
+                  "translate": "item.morecombat.wand.base",
+                  "fallback": "Untrimmed Rod",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.morecombat.wand.lore.0",
+                    "fallback": "Use an armor trim to",
+                    "bold": false,
+                    "italic": true,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false,
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.morecombat.wand.lore.1",
+                    "fallback": "  set its ability",
+                    "bold": false,
+                    "italic": true,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false,
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

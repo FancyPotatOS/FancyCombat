@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "morecombat:item/camo/helmet",
+        "particle": "morecombat:item/camo/helmet"
+    }
+}

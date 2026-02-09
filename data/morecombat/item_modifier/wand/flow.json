@@ -1,0 +1,52 @@
+{
+  "function": "minecraft:sequence",
+  "functions": [
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": {
+        "morecombat": {
+          "state": "morecombat:flow"
+        }
+      }
+    },
+    {
+      "function": "minecraft:set_custom_model_data",
+      "strings": {
+        "values": [
+          "flow"
+        ],
+        "mode": "replace_all"
+      }
+    },
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_name": {
+          "translate": "item.morecombat.wand.flow",
+          "fallback": "Flow Rod",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "translate": "item.morecombat.wand.flow.description",
+          "fallback": "Places an Ominous Item Spawner over nearby creatures",
+          "color": "gray",
+          "bold": false,
+          "italic": true,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    }
+  ]
+}

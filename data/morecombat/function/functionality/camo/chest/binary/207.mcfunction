@@ -1,0 +1,11 @@
+
+
+execute if block ~ ~ ~ minecraft:honey_block run function morecombat:functionality/camo/chest/block/honey_block
+execute if block ~ ~ ~ minecraft:honeycomb_block run function morecombat:functionality/camo/chest/block/honeycomb_block
+execute if block ~ ~ ~ minecraft:hopper run function morecombat:functionality/camo/chest/block/hopper
+execute if block ~ ~ ~ minecraft:horn_coral_block run function morecombat:functionality/camo/chest/block/horn_coral_block
+execute if block ~ ~ ~ minecraft:ice run function morecombat:functionality/camo/chest/block/ice
+execute if block ~ ~ ~ minecraft:iron_block run function morecombat:functionality/camo/chest/block/iron_block
+execute if block ~ ~ ~ minecraft:iron_door run function morecombat:functionality/camo/chest/block/iron_door
+execute if block ~ ~ ~ minecraft:iron_ore run function morecombat:functionality/camo/chest/block/iron_ore
+

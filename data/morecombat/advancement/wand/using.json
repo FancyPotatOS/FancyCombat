@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "morecombat.wand.using": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "#morecombat:wand/item",
+          "predicates": {
+            "minecraft:custom_data": {
+              "morecombat": {
+                "type": "wand"
+              }
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#morecombat:wand/item",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "morecombat": {
+                    "type": "wand"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "morecombat:functionality/wand/advancement/using"
+  }
+}

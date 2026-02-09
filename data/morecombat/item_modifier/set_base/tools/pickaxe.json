@@ -1,0 +1,8 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "lore": ["", [{"text":"On Hit:","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}],[{"text":" Temporary Blindness","italic":false,"color":"dark_green"}]]
+    }
+  }
+]

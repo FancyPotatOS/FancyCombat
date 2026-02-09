@@ -1,0 +1,13 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "lore": ["", [{"text":"On Hit:","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}],[{"text":" -1.5 Entity Reach","italic":false,"color":"dark_green"}]],
+      "tooltip_display": {
+        "hidden_components": [
+          "attribute_modifiers"
+        ]
+      }
+    }
+  }
+]

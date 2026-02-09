@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "contents": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "morecombat": {
+              "host": {
+                "type": "restore_count"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

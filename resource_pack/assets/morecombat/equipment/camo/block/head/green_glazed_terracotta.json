@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "morecombat:camo/block/head/green_glazed_terracotta"
+      }
+    ]
+  }
+}

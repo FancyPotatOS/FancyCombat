@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "fix_tool": {
+        "trigger": "tick",
+        "conditions": {
+            "player": [
+                {
+                    "condition": "reference",
+                    "name": "morecombat:holding/unaccounted"
+                }
+            ]
+        }
+    }
+  },
+  "rewards": {
+    "function": "morecombat:advancements/account_tool"
+  }
+}
+  

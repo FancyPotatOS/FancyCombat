@@ -1,0 +1,17 @@
+
+{
+    "item.morecombat.buckler": "Buckler",
+    "item.morecombat.tower_shield": "Tower Shield",
+    "item.morecombat.camo.helmet.name": "Camo Cap",
+    "item.morecombat.camo.helmet.description.1": "Crouch to camouflage as",
+    "item.morecombat.camo.helmet.description.2": "  the block behind you",
+    "item.morecombat.camo.chestplate.name": "Camo Tunic",
+    "item.morecombat.camo.chestplate.description.1": "Crouch to camouflage as",
+    "item.morecombat.camo.chestplate.description.2": "  the block behind you",
+    "item.morecombat.camo.leggings.name": "Camo Pants",
+    "item.morecombat.camo.leggings.description.1": "Crouch to camouflage as",
+    "item.morecombat.camo.leggings.description.2": "  the block behind you",
+    "item.morecombat.camo.boots.name": "Camo Boots",
+    "item.morecombat.camo.boots.description.1": "Crouch to camouflage as",
+    "item.morecombat.camo.boots.description.2": "  the block behind you"
+}

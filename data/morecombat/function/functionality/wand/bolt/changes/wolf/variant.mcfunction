@@ -1,0 +1,10 @@
+
+execute if predicate {condition:"random_chance",chance:0.11111} run return run data modify entity @s variant set value "minecraft:woods"
+execute if predicate {condition:"random_chance",chance:0.12500} run return run data modify entity @s variant set value "minecraft:striped"
+execute if predicate {condition:"random_chance",chance:0.14285} run return run data modify entity @s variant set value "minecraft:pale"
+execute if predicate {condition:"random_chance",chance:0.16666} run return run data modify entity @s variant set value "minecraft:ashen"
+execute if predicate {condition:"random_chance",chance:0.20000} run return run data modify entity @s variant set value "minecraft:black"
+execute if predicate {condition:"random_chance",chance:0.25000} run return run data modify entity @s variant set value "minecraft:chestnut"
+execute if predicate {condition:"random_chance",chance:0.33333} run return run data modify entity @s variant set value "minecraft:rusty"
+execute if predicate {condition:"random_chance",chance:0.50000} run return run data modify entity @s variant set value "minecraft:snowy"
+data modify entity @s variant set value "minecraft:spotted"

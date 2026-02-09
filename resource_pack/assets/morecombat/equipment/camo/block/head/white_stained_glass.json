@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "morecombat:camo/block/head/white_stained_glass"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "lore": [[{"text":"","italic":false}],[{"text":"When in Main Hand:","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}],[{"text":" 9 Attack Damage","italic":false,"color":"dark_green"}],[{"text":" 0.9 Attack Speed","italic":false,"color":"dark_green"}]],
+      "tooltip_display": {
+        "hidden_components": [
+          "attribute_modifiers"
+        ]
+      },
+      "attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 8,
+          "operation": "add_value",
+          "id": "axe_base_attack_damage",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "amount": -3.1,
+          "operation": "add_value",
+          "id": "axe_base_attack_speed",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  }
+]

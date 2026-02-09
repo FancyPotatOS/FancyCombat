@@ -1,0 +1,52 @@
+{
+  "function": "minecraft:sequence",
+  "functions": [
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": {
+        "morecombat": {
+          "state": "morecombat:ward"
+        }
+      }
+    },
+    {
+      "function": "minecraft:set_custom_model_data",
+      "strings": {
+        "values": [
+          "ward"
+        ],
+        "mode": "replace_all"
+      }
+    },
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_name": {
+          "translate": "item.morecombat.wand.ward",
+          "fallback": "Ward Rod",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "translate": "item.morecombat.wand.ward.description",
+          "fallback": "Senses all grounded movement",
+          "color": "gray",
+          "bold": false,
+          "italic": true,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    }
+  ]
+}

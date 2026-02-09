@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid_leggings": [
+      {
+        "texture": "morecombat:camo/block/smooth_stone_slab"
+      }
+    ]
+  }
+}

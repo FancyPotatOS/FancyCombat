@@ -1,0 +1,32 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "blocked": false,
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                      "minecraft:netherite_hoe",
+                      "minecraft:diamond_hoe",
+                      "minecraft:golden_hoe",
+                      "minecraft:iron_hoe",
+                      "minecraft:stone_hoe",
+                      "minecraft:copper_hoe",
+                      "minecraft:wooden_hoe"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "morecombat:advancements/hit_by/hoe"
+    }
+  }
+  

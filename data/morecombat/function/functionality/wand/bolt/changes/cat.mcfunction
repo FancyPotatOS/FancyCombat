@@ -1,0 +1,12 @@
+
+execute if data entity @s {variant:"minecraft:white"} run return run data modify entity @s variant set value "minecraft:jellie"
+execute if data entity @s {variant:"minecraft:black"} run return run data modify entity @s variant set value "minecraft:white"
+execute if data entity @s {variant:"minecraft:red"} run return run data modify entity @s variant set value "minecraft:black"
+execute if data entity @s {variant:"minecraft:siamese"} run return run data modify entity @s variant set value "minecraft:red"
+execute if data entity @s {variant:"minecraft:british_shorthair"} run return run data modify entity @s variant set value "minecraft:siamese"
+execute if data entity @s {variant:"minecraft:calico"} run return run data modify entity @s variant set value "minecraft:british_shorthair"
+execute if data entity @s {variant:"minecraft:persian"} run return run data modify entity @s variant set value "minecraft:calico"
+execute if data entity @s {variant:"minecraft:ragdoll"} run return run data modify entity @s variant set value "minecraft:persian"
+execute if data entity @s {variant:"minecraft:tabby"} run return run data modify entity @s variant set value "minecraft:ragdoll"
+execute if data entity @s {variant:"minecraft:all_black"} run return run data modify entity @s variant set value "minecraft:tabby"
+execute if data entity @s {variant:"minecraft:jellie"} run return run data modify entity @s variant set value "minecraft:all_black"

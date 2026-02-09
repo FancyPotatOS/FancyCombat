@@ -1,0 +1,32 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "blocked": false,
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                      "minecraft:netherite_pickaxe",
+                      "minecraft:diamond_pickaxe",
+                      "minecraft:golden_pickaxe",
+                      "minecraft:iron_pickaxe",
+                      "minecraft:stone_pickaxe",
+                      "minecraft:copper_pickaxe",
+                      "minecraft:wooden_pickaxe"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "morecombat:advancements/hit_by/pickaxe"
+    }
+  }
+  

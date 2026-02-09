@@ -1,0 +1,32 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "blocked": false,
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                      "minecraft:netherite_sword",
+                      "minecraft:diamond_sword",
+                      "minecraft:golden_sword",
+                      "minecraft:iron_sword",
+                      "minecraft:stone_sword",
+                      "minecraft:copper_sword",
+                      "minecraft:wooden_sword"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "morecombat:advancements/hit_by/sword"
+    }
+  }
+  

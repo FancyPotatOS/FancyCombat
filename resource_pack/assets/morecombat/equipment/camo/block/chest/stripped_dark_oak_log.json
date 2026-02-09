@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "morecombat:camo/block/chest/stripped_dark_oak_log"
+      }
+    ]
+  }
+}

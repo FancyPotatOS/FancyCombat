@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "morecombat:camo/block/feet/pink_concrete_powder"
+      }
+    ]
+  }
+}

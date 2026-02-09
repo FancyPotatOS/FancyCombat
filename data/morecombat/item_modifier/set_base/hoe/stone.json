@@ -1,0 +1,39 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "lore": [[{"text":"","italic":false}],[{"text":"When in Main Hand:","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}],[{"text":" 3 Attack Damage","italic":false,"color":"dark_green"}],[{"text":" 2 Attack Speed","italic":false,"color":"dark_green"}], [{"text":" 5 Reach","italic":false,"color":"dark_green"}]],
+      "tooltip_display": {
+        "hidden_components": [
+          "attribute_modifiers"
+        ]
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:attack_damage",
+        "amount": 2,
+        "operation": "add_value",
+        "id": "hoe_base_attack_damage",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:attack_speed",
+        "amount": -2,
+        "operation": "add_value",
+        "id": "hoe_base_attack_speed",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:entity_interaction_range",
+        "amount": 2,
+        "operation": "add_value",
+        "id": "hoe_base_reach",
+        "slot": "mainhand"
+      }
+    ]
+  }
+]

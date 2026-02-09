@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "morecombat:camo/block/head/dead_bubble_coral_block"
+      }
+    ]
+  }
+}

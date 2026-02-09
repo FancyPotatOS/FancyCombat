@@ -1,0 +1,32 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "blocked": false,
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                      "minecraft:netherite_shovel",
+                      "minecraft:diamond_shovel",
+                      "minecraft:golden_shovel",
+                      "minecraft:iron_shovel",
+                      "minecraft:stone_shovel",
+                      "minecraft:copper_shovel",
+                      "minecraft:wooden_shovel"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "morecombat:advancements/hit_by/shovel"
+    }
+  }
+  

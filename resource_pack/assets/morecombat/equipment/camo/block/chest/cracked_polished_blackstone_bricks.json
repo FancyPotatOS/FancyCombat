@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "morecombat:camo/block/chest/cracked_polished_blackstone_bricks"
+      }
+    ]
+  }
+}

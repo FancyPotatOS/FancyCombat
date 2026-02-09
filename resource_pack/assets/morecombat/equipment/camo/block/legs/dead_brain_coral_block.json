@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid_leggings": [
+      {
+        "texture": "morecombat:camo/block/dead_brain_coral_block"
+      }
+    ]
+  }
+}

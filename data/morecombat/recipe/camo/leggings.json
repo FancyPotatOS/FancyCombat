@@ -1,0 +1,87 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        "minecraft:cyan_dye",
+        "minecraft:magenta_dye",
+        "minecraft:yellow_dye",
+        "minecraft:ender_eye",
+        "minecraft:leather_leggings",
+        "minecraft:ender_eye",
+        "minecraft:eye_armor_trim_smithing_template",
+        "minecraft:shaper_armor_trim_smithing_template",
+        "minecraft:vex_armor_trim_smithing_template"
+    ],
+    "result": {
+        "id": "minecraft:poisonous_potato",
+        "count": 1,
+        "components": {
+            "minecraft:equippable": {
+                "slot": "legs",
+                "equip_sound": "minecraft:item.armor.equip_leather",
+                "asset_id": "morecombat:camo/none_legs",
+                "dispensable": true,
+                "swappable": true,
+                "damage_on_hurt": true,
+                "equip_on_interact": true
+            },
+            "!minecraft:consumable": {},
+            "!minecraft:food": {},
+            "minecraft:damage": 0,
+            "minecraft:max_damage": 190,
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:armor",
+                    "id": "morecombat:camo/leggings",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "legs"
+                }
+            ],
+            "minecraft:item_name": {
+                "translate": "item.morecombat.camo.leggings.name",
+                "fallback": "Camo Pants",
+                "color": "white",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": false
+            },
+            "minecraft:custom_data": {
+                "morecombat": {
+                    "type": "camo"
+                }
+            },
+            "minecraft:item_model": "morecombat:camo/leggings",
+            "minecraft:lore": [
+                {
+                    "translate": "item.morecombat.camo.helmet.description.1",
+                    "fallback": "Crouch to camouflage as",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": true,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                },
+                {
+                    "translate": "item.morecombat.camo.helmet.description.2",
+                    "fallback": "    the block behind you",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": true,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                }
+            ],
+            "minecraft:max_stack_size": 1,
+            "minecraft:rarity": "common",
+            "minecraft:repairable": {
+                "items": "#morecombat:camo/repair_items"
+            },
+            "minecraft:repair_cost": 0
+        }
+    }
+}

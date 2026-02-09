@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "morecombat:camo/none"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "morecombat:camo/none"
+      }
+    ]
+  }
+}

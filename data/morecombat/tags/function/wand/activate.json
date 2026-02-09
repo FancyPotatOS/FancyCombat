@@ -1,0 +1,22 @@
+{
+    "values": [
+        "morecombat:functionality/wand/base/activate",
+        "morecombat:functionality/wand/host/activate",
+        "morecombat:functionality/wand/wayfinder/activate",
+        "morecombat:functionality/wand/wild/activate",
+        "morecombat:functionality/wand/dune/activate",
+        "morecombat:functionality/wand/shaper/activate",
+        "morecombat:functionality/wand/sentry/activate",
+        "morecombat:functionality/wand/vex/activate",
+        "morecombat:functionality/wand/tide/activate",
+        "morecombat:functionality/wand/coast/activate",
+        "morecombat:functionality/wand/ward/activate",
+        "morecombat:functionality/wand/silence/activate",
+        "morecombat:functionality/wand/snout/activate",
+        "morecombat:functionality/wand/rib/activate",
+        "morecombat:functionality/wand/eye/activate",
+        "morecombat:functionality/wand/spire/activate",
+        "morecombat:functionality/wand/flow/activate",
+        "morecombat:functionality/wand/bolt/activate"
+    ]
+}

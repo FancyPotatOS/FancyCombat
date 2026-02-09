@@ -1,0 +1,72 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "morecombat:item/tower_shield/base"
+    },
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "morecombat:item/tower_shield/blocking"
+        },
+        {
+          "type": "range_dispatch",
+          "property":"use_duration",
+          "fallback": {
+            "type": "model",
+            "model": "morecombat:item/tower_shield/blocking/done"
+          },
+          "scale": 0.5,
+          "entries": [
+            {
+              "threshold": 0,
+              "model": {
+                "type": "model",
+                "model": "morecombat:item/tower_shield/blocking/0"
+              }
+            },
+            {
+              "threshold": 1,
+              "model": {
+                "type": "model",
+                "model": "morecombat:item/tower_shield/blocking/2"
+              }
+            },
+            {
+              "threshold": 2,
+              "model": {
+                "type": "model",
+                "model": "morecombat:item/tower_shield/blocking/4"
+              }
+            },
+            {
+              "threshold": 3,
+              "model": {
+                "type": "model",
+                "model": "morecombat:item/tower_shield/blocking/6"
+              }
+            },
+            {
+              "threshold": 4,
+              "model": {
+                "type": "model",
+                "model": "morecombat:item/tower_shield/blocking/8"
+              }
+            },
+            {
+              "threshold": 5,
+              "model": {
+                "type": "model",
+                "model": "morecombat:item/tower_shield/blocking/done"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

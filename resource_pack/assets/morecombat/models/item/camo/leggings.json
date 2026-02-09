@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "morecombat:item/camo/leggings",
+        "particle": "morecombat:item/camo/leggings"
+    }
+}

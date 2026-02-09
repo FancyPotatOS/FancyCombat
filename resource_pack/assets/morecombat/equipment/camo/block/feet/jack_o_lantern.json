@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "morecombat:camo/block/feet/jack_o_lantern"
+      }
+    ]
+  }
+}

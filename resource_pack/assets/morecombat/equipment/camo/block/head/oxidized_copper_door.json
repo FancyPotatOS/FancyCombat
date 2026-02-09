@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "morecombat:camo/block/head/oxidized_copper_door"
+      }
+    ]
+  }
+}
