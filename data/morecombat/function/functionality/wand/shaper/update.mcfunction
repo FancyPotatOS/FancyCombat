@@ -11,7 +11,7 @@ particle minecraft:ash ~ ~1.05 ~ 0.2 0 0.2 0 1
 tag @s add morecombat.wand.shaper.update.marker
 execute \
     positioned ~-0.5 ~1 ~-0.5 \
-    as @e[type=#morecombat:wand/shaper/can_activate_traps,dx=0,dy=0,dz=0,scores={morecombat.id=0..}] \
+    as @e[type=#morecombat:wand/shaper/can_activate_traps,dx=0,dy=0,dz=0] \
     unless score @s morecombat.id = @n[tag=morecombat.wand.shaper.update.marker] morecombat.id \
     run tag @s add morecombat.wand.shaper.triggeredmany
 

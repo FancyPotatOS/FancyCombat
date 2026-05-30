@@ -110,6 +110,8 @@ Cooldown: None
 
 Places a TNT trap when stepped on. Placer cannot trigger it for 5 seconds
 
+If buried, the trap will activate when the block is mined instead
+
 ### Eye ![eye](img/wand/eye.png)
 <hr />
 
@@ -132,7 +134,9 @@ Places an Ominous Item Spawner over nearby entities
 Cost: 1 and a Bundle ![bundle](img/bundle.gif)\
 Cooldown: None
 
-Places the bundle sand or gravel, suspiciously! ![suspicious_blocks](img/suspicious_blocks.gif)
+Places the bundle into sand or gravel, suspiciously! ![suspicious_blocks](img/suspicious_blocks.gif)
+
+_Remember that the items will break if the suspicious blocks fall. Don't put anything important in there!_
 
 ### Raiser ![raiser](img/wand/raiser.png)
 <hr />

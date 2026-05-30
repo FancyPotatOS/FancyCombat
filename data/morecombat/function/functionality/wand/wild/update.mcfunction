@@ -13,7 +13,7 @@ particle minecraft:ash ~ ~0.05 ~ 0.2 0 0.2 0 1
 tag @s add morecombat.wand.wild.update.marker
 execute \
     positioned ~-0.5 ~ ~-0.5 \
-    as @e[type=#morecombat:wand/wild/can_activate_traps,dx=0,dy=0,dz=0,scores={morecombat.id=0..}] \
+    as @e[type=#morecombat:wand/wild/can_activate_traps,dx=0,dy=0,dz=0] \
     unless score @s morecombat.id = @n[tag=morecombat.wand.wild.update.marker] morecombat.id \
     run tag @s add morecombat.wand.wild.triggeredmany
 
