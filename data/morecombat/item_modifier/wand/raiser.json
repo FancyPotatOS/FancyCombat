@@ -38,7 +38,7 @@
       "lore": [
         {
           "translate": "item.morecombat.wand.raiser.description",
-          "fallback": "Does nothing yet...",
+          "fallback": "Nearby items gravitate towards you",
           "color": "gray",
           "bold": false,
           "italic": true,

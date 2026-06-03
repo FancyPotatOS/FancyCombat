@@ -28,10 +28,6 @@ scoreboard players set $wand.shaper.grace_period morecombat.config 100
 scoreboard players set $wand.wild.cooldown morecombat.config 0
 scoreboard players set $wand.wild.grace_period morecombat.config 100
 
-scoreboard players set $wand.tide.cooldown morecombat.config 600
-scoreboard players set $wand.tide.effect_duration morecombat.config 150
-scoreboard players set $wand.tide.effect_delta morecombat.config 150
-
 scoreboard players set $wand.snout.cooldown morecombat.config 200
 scoreboard players set $wand.snout.longer_cooldown morecombat.config 400
 scoreboard players set $wand.snout.shoot_duration morecombat.config 16
@@ -50,11 +46,6 @@ scoreboard players set $wand.vex.fang.warmup.offset morecombat.config 1
 scoreboard players set $wand.sentry.cooldown morecombat.config 600
 scoreboard players set $wand.sentry.base_lifetime morecombat.config 100
 scoreboard players set $wand.sentry.lifetime_delta morecombat.config 100
-
-scoreboard players set $wand.ward.cooldown morecombat.config 300
-scoreboard players set $wand.ward.base_lifetime morecombat.config 200
-scoreboard players set $wand.ward.lifetime_delta morecombat.config 200
-scoreboard players set $wand.ward.immune_time morecombat.config 100
 
 scoreboard players set $wand.coast.cooldown morecombat.config 600
 scoreboard players set $wand.coast.longer_cooldown morecombat.config 24000

@@ -16,6 +16,7 @@
         "morecombat:functionality/wand/eye/apply",
         "morecombat:functionality/wand/spire/apply",
         "morecombat:functionality/wand/flow/apply",
-        "morecombat:functionality/wand/bolt/apply"
+        "morecombat:functionality/wand/bolt/apply",
+        "morecombat:functionality/wand/raiser/apply"
     ]
 }

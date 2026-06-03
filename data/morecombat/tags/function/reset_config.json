@@ -1,5 +1,8 @@
 {
     "values": [
-        "morecombat:functionality/wand/reset_config"
+        "morecombat:functionality/wand/reset_config",
+        "morecombat:functionality/wand/raiser/reset_config",
+        "morecombat:functionality/wand/ward/reset_config",
+        "morecombat:functionality/wand/tide/reset_config"
     ]
 }

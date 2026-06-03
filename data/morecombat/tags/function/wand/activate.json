@@ -17,6 +17,7 @@
         "morecombat:functionality/wand/eye/activate",
         "morecombat:functionality/wand/spire/activate",
         "morecombat:functionality/wand/flow/activate",
-        "morecombat:functionality/wand/bolt/activate"
+        "morecombat:functionality/wand/bolt/activate",
+        "morecombat:functionality/wand/raiser/activate"
     ]
 }

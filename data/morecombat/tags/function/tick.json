@@ -12,6 +12,7 @@
 		"morecombat:functionality/wand/sentry/tick",
 		"morecombat:functionality/wand/silence/tick",
 		"morecombat:functionality/wand/tide/tick",
-		"morecombat:functionality/wand/snout/tick"
+		"morecombat:functionality/wand/snout/tick",
+		"morecombat:functionality/wand/raiser/tick"
 	]
 }

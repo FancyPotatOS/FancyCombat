@@ -141,7 +141,10 @@ _Remember that the items will break if the suspicious blocks fall. Don't put any
 ### Raiser ![raiser](img/wand/raiser.png)
 <hr />
 
-_No current functionality yet... I forgot this one!_
+Cost: 16
+Cooldown: 40s
+
+Attracts items within 15 blocks towards you for 30 seconds
 
 ### Rib ![rib](img/wand/rib.png)
 <hr />
@@ -164,7 +167,7 @@ Shoots a Blue Wither Skull ![blue_wither_skull](img/blue_wither_skull.png)
 Cost: 24\
 Cooldown: 30s
 
-Summons a forcefield that reflects all projectiles. Effect lasts for 5-10s
+Summons a forcefield that reflects all projectiles. Effect lasts for 5-10 seconds
 
 ### Shaper ![shaper](img/wand/shaper.png)
 <hr />
@@ -182,7 +185,7 @@ The block must be mineable by a stone pickaxe
 Cost: 48\
 Cooldown: 30s (10s if missed)
 
-Continue using for 2s to launch a Sonic Boom up to 25 blocks towards the entity you're looking at
+Continue using for 2 seconds to launch a Sonic Boom up to 25 blocks towards the entity you're looking at
 
 ### Snout ![snout](img/wand/snout.png)
 <hr />
@@ -213,7 +216,7 @@ Shoots a Shulker Bullet ![shulker_bullet](img/shulker_bullet.png) that targets t
 Cost: 8\
 Cooldown: 30s
 
-Boosts the player's water-related attributes for 7.5-15 seconds:
+Boosts the player's water-related attributes for 15-30 seconds:
 - Submerged Mining Speed (+40%)
 - Underwater Movement (+80%)
 - No Burn Time
@@ -233,7 +236,7 @@ Performs an Evoker Fang ![fang](img/fangs.png) attack up to 16 blocks
 Cost: 24\
 Cooldown: 15s
 
-Senses grounded movement for 10-20s. Produces sculk sounds and vibration effects ![vibration](img/vibration.gif) towards all nearby motion. Any creatures that made a sound do not trigger this again for 5s
+Senses grounded movement for 15-30 seconds. Produces sculk sounds and vibration effects ![vibration](img/vibration.gif) towards all nearby motion. Any creatures that made a sound do not trigger this again for 3 seconds
 
 ### Wayfinder ![wayfinder](img/wand/wayfinder.png)
 <hr />

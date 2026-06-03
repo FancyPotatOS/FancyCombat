@@ -1,56 +1,24 @@
 #
-#   Migration File V1
+#   Migration File V2
 #   
 #   Purpose: To update the datapack up to this level, then apply new/updated configs or setup
 #
 #   Input: None
 #
 
-tellraw @a ["",{"text":"[More Combat Datapack]","bold":true,"color":"dark_blue"}," - Setup"]
-
 # Apply last migration
-#execute unless score $version morecombat.master matches 1.. run function morecombat:meta/migrate/migration_v0
+execute unless score $version morecombat.master matches 1.. run function morecombat:meta/migrations/migration_v0
 
 # Set the version
-scoreboard players set $version morecombat.master 1
+scoreboard players set $version morecombat.master 2
 
-scoreboard objectives add morecombat.play_time minecraft.custom:minecraft.play_time
-scoreboard objectives add morecombat.temp dummy
-scoreboard objectives add morecombat.config dummy
+# Add raiser duration scoreboard
+scoreboard objectives add morecombat.wand.raiser.effect_duration dummy
 
-scoreboard objectives add morecombat.id dummy
-scoreboard players set $next_id morecombat.id 1
+# Apply initial config
+function morecombat:functionality/wand/raiser/reset_config
 
-# # Brush
-scoreboard objectives add morecombat.shears_cooldown dummy
-scoreboard objectives add morecombat.brush_cooldown dummy
+# Update newer configs
+function morecombat:functionality/wand/ward/reset_config
+function morecombat:functionality/wand/tide/reset_config
 
-# # Wands
-scoreboard objectives add morecombat.wand.last_use dummy
-scoreboard objectives add morecombat.wand.cooldown.all dummy
-scoreboard objectives add morecombat.wand.cooldown.basic dummy
-scoreboard objectives add morecombat.wand.cooldown.advanced dummy
-scoreboard objectives add morecombat.wand.sentry.lifetime dummy
-scoreboard objectives add morecombat.wand.coast.immune_time dummy
-scoreboard objectives add morecombat.wand.coast.lifetime dummy
-scoreboard objectives add morecombat.wand.coast.effect_duration dummy
-scoreboard objectives add morecombat.wand.tide.effect_duration dummy
-scoreboard objectives add morecombat.wand.ward.lifetime dummy
-scoreboard objectives add morecombat.wand.ward.immune_time dummy
-scoreboard objectives add morecombat.wand.wild.grace_period dummy
-scoreboard objectives add morecombat.wand.dune.grace_period dummy
-scoreboard objectives add morecombat.wand.shaper.grace_period dummy
-scoreboard objectives add morecombat.wand.silence.warmup_time dummy
-scoreboard objectives add morecombat.wand.silence.stop_check dummy
-scoreboard objectives add morecombat.wand.snout.effect_duration dummy
-
-# Config Values
-scoreboard players set config.shears_cooldown morecombat.master 50
-scoreboard players set config.brush_cooldown morecombat.master 30
-
-
-function #morecombat:reset_config
-
-
-return 0
-scoreboard objectives add fpconflict.conflict_map dummy
