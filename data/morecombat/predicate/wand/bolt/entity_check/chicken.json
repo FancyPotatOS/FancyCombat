@@ -2,6 +2,6 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:chicken"
+    "entity_type": "minecraft:chicken"
   }
 }
