@@ -3,12 +3,7 @@
     "morecombat.camo.complete_set": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "morecombat:functionality/camo/wearing/all"
-          }
-        ]
+        "player": "morecombat:functionality/camo/wearing/all"
       }
     }
   },

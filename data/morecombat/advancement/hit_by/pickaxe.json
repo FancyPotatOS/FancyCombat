@@ -3,7 +3,6 @@
       "requirement": {
         "trigger": "minecraft:entity_hurt_player",
         "conditions": {
-          "player": [],
           "damage": {
             "blocked": false,
             "source_entity": {

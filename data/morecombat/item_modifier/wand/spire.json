@@ -1,8 +1,8 @@
 {
-  "function": "minecraft:sequence",
+  "type": "minecraft:sequence",
   "functions": [
     {
-      "function": "minecraft:set_custom_data",
+      "type": "minecraft:set_custom_data",
       "tag": {
         "morecombat": {
           "state": "morecombat:spire"
@@ -10,7 +10,7 @@
       }
     },
     {
-      "function": "minecraft:set_custom_model_data",
+      "type": "minecraft:set_custom_model_data",
       "strings": {
         "values": [
           "spire"
@@ -19,7 +19,7 @@
       }
     },
     {
-      "function": "minecraft:set_components",
+      "type": "minecraft:set_components",
       "components": {
         "minecraft:item_name": {
           "translate": "item.morecombat.wand.spire",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "function": "minecraft:set_lore",
+      "type": "minecraft:set_lore",
       "mode": "replace_all",
       "lore": [
         {

@@ -4,7 +4,7 @@
 scoreboard players remove @s morecombat.wand.coast.lifetime 1
 execute if score @s morecombat.wand.coast.lifetime matches ..0 run return run kill @s
 
-particle minecraft:block{block_state:{Name:"minecraft:ice"}} ~ ~ ~ 1.5 1.5 1.5 0.5 2 force
+particle minecraft:block{block_state:{id:"minecraft:ice"}} ~ ~ ~ 1.5 1.5 1.5 0.5 2 force
 particle minecraft:enchant ~ ~ ~ 1.5 1.5 1.5 1 2 force
 particle minecraft:glow ~ ~ ~ 1.5 1.5 1.5 1 4 force
 

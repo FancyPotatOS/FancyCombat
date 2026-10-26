@@ -3,16 +3,10 @@
     "morecombat.camo.remove_set": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": 
-            {
-              "condition": "minecraft:reference",
-              "name": "morecombat:functionality/camo/wearing/all"
-            }
-          }
-        ]
+        "player": {
+          "type": "minecraft:inverted",
+          "term": "morecombat:functionality/camo/wearing/all"
+        }
       }
     }
   },

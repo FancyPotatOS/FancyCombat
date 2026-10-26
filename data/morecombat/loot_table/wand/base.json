@@ -6,10 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:shield",
-          "conditions": [],
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "!minecraft:attack_range": {},
                 "!minecraft:attribute_modifiers": {},
@@ -56,7 +55,6 @@
                 "!minecraft:llama/variant": {},
                 "!minecraft:lock": {},
                 "!minecraft:lodestone_tracker": {},
-                "!minecraft:map_color": {},
                 "!minecraft:map_decorations": {},
                 "!minecraft:map_id": {},
                 "!minecraft:minimum_attack_charge": {},
@@ -82,7 +80,7 @@
                 "!minecraft:shulker/color": {},
                 "!minecraft:stored_enchantments": {},
                 "!minecraft:suspicious_stew_effects": {},
-                "!minecraft:swing_animation": {},
+                "!minecraft:attack_animation": {},
                 "!minecraft:tool": {},
                 "!minecraft:tooltip_display": {},
                 "!minecraft:tooltip_style": {},

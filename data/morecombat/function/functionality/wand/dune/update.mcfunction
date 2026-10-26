@@ -1,5 +1,8 @@
 
 
+execute unless block ~ ~-1 ~ #morecombat:wand/shaper/solid_blocks run return run function morecombat:functionality/wand/shaper/silent_kill
+execute unless block ~ ~ ~ #morecombat:wand/dune/air_like run return run function morecombat:functionality/wand/shaper/silent_kill
+
 scoreboard players remove @s morecombat.wand.dune.grace_period 1
 execute if score @s morecombat.wand.dune.grace_period matches ..0 run scoreboard players set @s morecombat.id -1
 

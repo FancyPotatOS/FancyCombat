@@ -3,12 +3,7 @@
       "fix_tool": {
         "trigger": "tick",
         "conditions": {
-            "player": [
-                {
-                    "condition": "reference",
-                    "name": "morecombat:holding/unaccounted"
-                }
-            ]
+            "player": "morecombat:holding/unaccounted"
         }
     }
   },

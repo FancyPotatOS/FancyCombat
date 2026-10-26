@@ -258,6 +258,6 @@ If buried, the trap will activate when the block is mined instead
 
 ## Credits
 
-**In this datapack comes packaged the [Iris pathfinding datapack](https://github.com/Aeldrion/Iris) by Aeldrion**
+**In this datapack comes packaged the [Iris Raycasting datapack](https://github.com/Aeldrion/Iris) by Aeldrion**
 
 **In this datapack comes packaged the [BlockState datapack](https://github.com/Triton365/BlockState) by Triton365**

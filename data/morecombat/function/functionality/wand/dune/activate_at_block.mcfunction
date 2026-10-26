@@ -1,4 +1,5 @@
 
+
 # Trap too close
 execute if entity @e[type=marker,tag=morecombat.wand.dune.trap,distance=..1] run return run function morecombat:functionality/wand/dune/fail/close_trap
 

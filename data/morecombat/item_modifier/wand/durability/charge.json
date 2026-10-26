@@ -1,13 +1,21 @@
 {
-  "function": "minecraft:set_damage",
+  "type": "minecraft:set_damage",
   "damage": {
-    "type": "minecraft:score",
-    "target": {
-      "type": "minecraft:fixed",
-      "name": "$cost"
-    },
-    "score": "morecombat.temp",
-    "scale": 0.00390625
+    "type": "minecraft:mul",
+    "inputs": [
+      0.00390625,
+      {
+        "type": "minecraft:from_int",
+        "input": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "$cost"
+          },
+          "score": "morecombat.temp"
+        }
+      }
+    ]
   },
   "add": true
 }

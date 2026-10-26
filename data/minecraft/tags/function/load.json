@@ -1,8 +1,6 @@
 {
-	"replace":false,
-	"values":
-	[
-		"morecombat:meta/load",
-		"iris:setup/load"
+	"values": [
+		"iris:setup/load",
+		"morecombat:meta/load"
 	]
 }

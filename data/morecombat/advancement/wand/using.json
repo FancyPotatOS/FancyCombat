@@ -14,13 +14,17 @@
           }
         },
         "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "#morecombat:wand/item",
-              "predicates": {
-                "minecraft:custom_data": {
-                  "morecombat": {
-                    "type": "wand"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "items": "#morecombat:wand/item",
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "morecombat": {
+                      "type": "wand"
+                    }
                   }
                 }
               }

@@ -20,6 +20,8 @@ execute unless entity @n[tag=iris.targeted_block] run return 0
 scoreboard players set $cost morecombat.temp 32
 function morecombat:functionality/wand/durability/charge
 
-execute at @n[tag=iris.targeted_block] if block ~ ~1 ~ #morecombat:wand/dune/air_like positioned ~ ~1 ~ run function morecombat:functionality/wand/dune/activate_at_block
-execute at @n[tag=iris.targeted_block] unless block ~ ~1 ~ #morecombat:wand/dune/air_like run function morecombat:functionality/wand/dune/activate_at_block
+execute at @n[tag=iris.targeted_block] if block ~ ~ ~ #morecombat:wand/shaper/solid_blocks if block ~ ~1 ~ #morecombat:wand/dune/air_like positioned ~ ~1 ~ run return run function morecombat:functionality/wand/dune/activate_at_block
+execute at @n[tag=iris.targeted_block] if block ~ ~-1 ~ #morecombat:wand/shaper/solid_blocks if block ~ ~ ~ #morecombat:wand/dune/air_like run return run function morecombat:functionality/wand/dune/activate_at_block
+
+function morecombat:functionality/wand/dune/fail/bad_spot
 

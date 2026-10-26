@@ -12,6 +12,6 @@ data modify block ~ ~ ~ item set from entity @n[tag=morecombat.wand.host.activat
 item replace entity @n[tag=morecombat.wand.host.activator] weapon.offhand with minecraft:air
 
 # Obvious response
-particle minecraft:block{block_state:{Name:"minecraft:sand"}} ~ ~ ~ 0.5 0.5 0.5 0 1 force
+particle minecraft:block{block_state:{id:"minecraft:sand"}} ~ ~ ~ 0.5 0.5 0.5 0 1 force
 playsound minecraft:block.suspicious_sand.hit player @a[distance=..20] ~ ~ ~ 0.3 0.51
 
