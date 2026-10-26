@@ -89,7 +89,6 @@
                 "!minecraft:tropical_fish/pattern": {},
                 "!minecraft:tropical_fish/pattern_color": {},
                 "!minecraft:unbreakable": {},
-                "!minecraft:use_cooldown": {},
                 "!minecraft:use_remainder": {},
                 "!minecraft:villager/variant": {},
                 "!minecraft:weapon": {},
@@ -121,6 +120,10 @@
                   "can_sprint": true,
                   "speed_multiplier": 1,
                   "interact_vibrations": false
+                },
+                "use_cooldown": {
+                    "seconds": 0.00001,
+                    "cooldown_group": "morecombat:wand"
                 },
                 "minecraft:max_damage": 256,
                 "minecraft:damage": 0,
